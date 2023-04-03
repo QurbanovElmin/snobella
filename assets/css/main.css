@@ -1,0 +1,524 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .container1 {
+  width: 100%;
+  height: 48px;
+  background-color: #007878;
+}
+header .container1 .container2 {
+  max-width: 1128px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container1 .container2 a {
+  color: white;
+}
+header .container1 .container2 div {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .container1 .container2 div P {
+  margin: 5px;
+  color: white;
+}
+header .container1 .container2 ul {
+  display: flex;
+  gap: 15px;
+}
+header .container1 .container2 ul li {
+  border-right: 2px solid white;
+  padding: 5px;
+  color: white;
+}
+header .container1 .container2 ul li:last-child {
+  border: none;
+}
+header .section1 {
+  width: 100%;
+  height: 158px;
+  background-color: white;
+}
+header .section1 .section2 {
+  max-width: 1128px;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+header .section1 .section2 .section3 {
+  display: flex;
+  width: 50%;
+}
+header .section1 .section2 .section3 input {
+  margin-left: 50px;
+  border: none;
+  width: 341px;
+  height: 32px;
+  background-color: #F7F9FC;
+}
+header .section1 .section2 .section3 i {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 4px;
+}
+header .section1 .section2 .section4 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+header .section1 .section2 .section4 ul {
+  display: flex;
+  gap: 50px;
+}
+header .section1 .section2 .section4 ul li {
+  gap: 5px;
+}
+header .section1 .section2 .section4 ul li i {
+  font-size: 20px;
+}
+header .section1 .section2 .section4 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+header .section1 .section5 {
+  max-width: 1128px;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+header .section1 .section5 .book1 {
+  width: 830px;
+  height: 50%;
+}
+header .section1 .section5 .book1 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .section1 .section5 .book1 ul li {
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  height: 584px;
+  background-color: #FFE2E0;
+}
+main .main1 {
+  max-width: 1206px;
+  height: 100%;
+  display: flex;
+  margin-left: 101px;
+}
+main .main1 .main2 {
+  width: 60%;
+  height: 100%;
+  margin: 0px;
+}
+main .main1 .main2 p {
+  padding-top: 150px;
+  color: #DF4244;
+  font-size: 30px;
+}
+main .main1 .main2 h1 {
+  font-style: 0;
+  font-size: 50px;
+  padding-top: 5px;
+}
+main .main1 .main2 h4 {
+  font: optional;
+  color: rgba(33, 33, 33, 0.7490196078);
+  font-size: 20px;
+  padding-top: 5px;
+}
+main .main1 .main2 button {
+  margin-top: 50px;
+  background-color: #206363;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+main .main1 .main3 {
+  width: 40%;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+main .book1 {
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  background-color: #F7F7F7;
+}
+main .book1 .book2 {
+  max-width: 1128px;
+  height: 100%;
+  margin: auto;
+}
+main .book1 .book2 ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+main .book1 .book2 ul li i {
+  font-size: 20px;
+  color: rgb(145, 145, 238);
+}
+main .book1 .book2 ul li a {
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+}
+
+section .header {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+section .header .header1 {
+  margin: auto;
+  max-width: 1128px;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+section .header .header1 .bag1 {
+  background-color: #F5F5F5;
+  max-width: 264px;
+  max-height: 162px;
+  margin-top: 50PX;
+}
+section .header .header1 .bag1 h3 {
+  padding-left: 20px;
+}
+section .header .header1 .bag1 .bag2 {
+  display: flex;
+  justify-content: end;
+  width: 252px;
+  height: 140px;
+  align-items: end;
+}
+section .reset {
+  width: 100%;
+  height: 580px;
+  background-color: white;
+}
+section .reset .reset1 {
+  max-width: 1128px;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+}
+section .reset .reset1 .small {
+  display: flex;
+}
+section .reset .reset1 .small .small1 {
+  margin-left: 800px;
+}
+section .reset .reset1 .reset2 {
+  height: 553px;
+  max-width: 1128px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .reset .reset1 .reset2 .kart1 {
+  height: 440px;
+  width: 360px;
+  background-color: #F9F9F9;
+}
+section .reset .reset1 .reset2 .kart1 .icon {
+  display: flex;
+}
+section .reset .reset1 .reset2 .kart1 .icon i {
+  padding-top: 5px;
+  padding-left: 140px;
+  color: red;
+}
+section .reset .reset1 .reset2 .kart1 .now {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+section .reset .reset1 .reset2 .kart1 .now p {
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  padding-left: 11px;
+  padding-top: px;
+  color: white;
+}
+section .reset .reset1 .reset2 .kart1 .box1 {
+  margin-left: 70px;
+  height: 240px;
+  width: 360px;
+}
+section .reset .reset1 .reset2 .kart1 .ulduz {
+  display: flex;
+  margin-left: 10px;
+}
+section .reset .reset1 .reset2 .kart1 .ulduz p {
+  color: yellow;
+}
+section .reset .reset1 .reset2 .kart1 h4 {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-style: unset;
+}
+section .reset .reset1 .reset2 .kart1 .money {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+section .reset .reset1 .reset2 .kart1 .money h2 {
+  color: red;
+}
+section .reset .reset1 .reset2 .kart1 .money h1 {
+  font-style: initial;
+  font-weight: lighter;
+}
+section .reset .reset1 .reset2 .kart1 .button {
+  margin: 5px;
+  padding-left: 120px;
+  padding-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+section .reset .reset1 .reset2 .kart1 .button p {
+  padding-bottom: 15px;
+}
+section .reseta {
+  width: 100%;
+  height: 580px;
+  background-color: #FFF7F7;
+}
+section .reseta .reset1 {
+  max-width: 1128px;
+  height: 100%;
+  margin: auto;
+  background-color: #FFF7F7;
+}
+section .reseta .reset1 .small {
+  display: flex;
+}
+section .reseta .reset1 .small .small1 {
+  margin-left: 900px;
+}
+section .reseta .reset1 .reset2 {
+  height: 553px;
+  max-width: 1128px;
+  background-color: #FFF7F7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .reseta .reset1 .reset2 .kart1 {
+  height: 440px;
+  width: 360px;
+  background-color: white;
+}
+section .reseta .reset1 .reset2 .kart1 .icon {
+  display: flex;
+}
+section .reseta .reset1 .reset2 .kart1 .icon i {
+  padding-top: 5px;
+  padding-left: 140px;
+  color: red;
+}
+section .reseta .reset1 .reset2 .kart1 .now {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+section .reseta .reset1 .reset2 .kart1 .now p {
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  padding-left: 11px;
+  padding-top: px;
+  color: white;
+}
+section .reseta .reset1 .reset2 .kart1 .box1 {
+  margin-left: 70px;
+  height: 240px;
+  width: 360px;
+}
+section .reseta .reset1 .reset2 .kart1 .ulduz {
+  display: flex;
+  margin-left: 10px;
+}
+section .reseta .reset1 .reset2 .kart1 .ulduz p {
+  color: yellow;
+}
+section .reseta .reset1 .reset2 .kart1 h4 {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-style: unset;
+}
+section .reseta .reset1 .reset2 .kart1 .money {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+section .reseta .reset1 .reset2 .kart1 .money h2 {
+  color: red;
+}
+section .reseta .reset1 .reset2 .kart1 .money h1 {
+  font-style: initial;
+  font-weight: lighter;
+}
+section .reseta .reset1 .reset2 .kart1 .button {
+  margin: 5px;
+  padding-left: 120px;
+  padding-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+section .reseta .reset1 .reset2 .kart1 .button p {
+  padding-bottom: 15px;
+}
+section .resetb {
+  width: 100%;
+  height: 580px;
+  background-color: white;
+}
+section .resetb .reset1 {
+  max-width: 1128px;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  padding-top: 50px;
+}
+section .resetb .reset1 .small {
+  display: flex;
+}
+section .resetb .reset1 .small .small1 {
+  margin-left: 800px;
+}
+section .resetb .reset1 .reset2 {
+  height: 553px;
+  max-width: 1128px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .resetb .reset1 .reset2 .kart1 {
+  height: 440px;
+  width: 360px;
+  background-color: #F9F9F9;
+}
+section .resetb .reset1 .reset2 .kart1 .icon {
+  display: flex;
+}
+section .resetb .reset1 .reset2 .kart1 .icon i {
+  padding-top: 5px;
+  padding-left: 140px;
+  color: red;
+}
+section .resetb .reset1 .reset2 .kart1 .now {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+section .resetb .reset1 .reset2 .kart1 .now p {
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  padding-left: 11px;
+  padding-top: px;
+  color: white;
+}
+section .resetb .reset1 .reset2 .kart1 .box1 {
+  margin-left: 70px;
+  height: 240px;
+  width: 360px;
+}
+section .resetb .reset1 .reset2 .kart1 .ulduz {
+  display: flex;
+  margin-left: 10px;
+}
+section .resetb .reset1 .reset2 .kart1 .ulduz p {
+  color: yellow;
+}
+section .resetb .reset1 .reset2 .kart1 h4 {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-style: unset;
+}
+section .resetb .reset1 .reset2 .kart1 .money {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+section .resetb .reset1 .reset2 .kart1 .money h2 {
+  color: red;
+}
+section .resetb .reset1 .reset2 .kart1 .money h1 {
+  font-style: initial;
+  font-weight: lighter;
+}
+section .resetb .reset1 .reset2 .kart1 .button {
+  margin: 5px;
+  padding-left: 120px;
+  padding-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+section .resetb .reset1 .reset2 .kart1 .button p {
+  padding-bottom: 15px;
+}
+section .finish1 {
+  width: 100%;
+  height: 80px;
+  background-color: #F7F7F9;
+}
+section .finish1 .finish2 {
+  max-width: 1128px;
+  height: 100%;
+  margin: auto;
+  background-color: #F7F7F9;
+  display: flex;
+}
+section .finish1 .finish2 .finish {
+  width: 50%;
+  margin-top: 30px;
+}
+section .finish1 .finish2 .finish3 {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  margin-top: 30px;
+}
+section .finish1 .finish2 .finish3 input {
+  border-radius: 5px;
+  width: 341px;
+  height: 32px;
+  background-color: #F7F9FC;
+  position: relative;
+}
+section .finish1 .finish2 .finish3 i {
+  position: absolute;
+  padding-right: 20px;
+  margin-top: 4px;
+}/*# sourceMappingURL=main.css.map */
